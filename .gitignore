@@ -71,3 +71,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /.idea
+.DS_Store
+Assets/Map Data/NYUSH_campus_courtyard/7465-Campus_Courtyard_1107.bytes
+Assets/Map Data/NYUSH_campus_courtyard/7465-Campus_Courtyard_1107.bytes.meta
