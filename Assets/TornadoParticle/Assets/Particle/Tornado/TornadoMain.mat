@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TornadoMain
+  m_Shader: {fileID: 4800000, guid: 083eba32421e7d1478d162b7246b7680, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ForceShieldWaves1:
+        m_Texture: {fileID: 2800000, guid: b248f772bb144c649b63c33d071be6e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TornadoMasks:
+        m_Texture: {fileID: 2800000, guid: f1a99526d07163a4da7eb1aea198561a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Float0: -0.01
+    - __dirty: 0
+    m_Colors:
+    - _BakColor: {r: 0.23594245, g: 0.19579923, b: 0.754717, a: 0}
+    - _DustColor: {r: 0.030885803, g: 0, b: 1.4980392, a: 0}
+    - _LinesColor: {r: 3.8866878, g: 3.9423063, b: 5.605291, a: 0}
+    - _SparksColor: {r: 1.5782855, g: 1.5377358, b: 2, a: 0}
+    - _SparksDustColor: {r: 1.8443027, g: 1.8443027, b: 1.8443027, a: 0}

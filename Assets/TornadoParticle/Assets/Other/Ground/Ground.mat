@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ground
+  m_Shader: {fileID: 4800000, guid: 0d074b274df9909478911e9d56f860df, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: bcb54860196c65949bf73185a54f3630, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ForceShieldPattern1:
+        m_Texture: {fileID: 2800000, guid: 641531eaa101edf458ce7c68d6456dba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ForceShieldPattern2:
+        m_Texture: {fileID: 2800000, guid: 9d1b55c53315e4949bf107dfd98eae5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 8f3decb0e2112c14893b9094d26be61e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseNormal:
+        m_Texture: {fileID: 2800000, guid: e0394e4687bc3a54cb01923f85910aba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseNormalRef:
+        m_Texture: {fileID: 2800000, guid: e0394e4687bc3a54cb01923f85910aba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: a4cee5b4be6acfd4493ac9782578467b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 0c2a32b28f53f144d83b4e49f6472cd7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _foam002:
+        m_Texture: {fileID: 2800000, guid: 0c2a32b28f53f144d83b4e49f6472cd7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _foam003:
+        m_Texture: {fileID: 2800000, guid: cbd9b05e08fbb0042bffadffea982b18, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EdgeLength: 15
+    - _NormaPower: 1
+    - _NormalPower: 0.1
+    - __dirty: 0
+    m_Colors:
+    - _AlbedoColor: {r: 0.41176468, g: 0.1483564, b: 0.1483564, a: 0}
+    - _Color0: {r: 0.161, g: 0.09031707, b: 0.019634146, a: 0}
+    - _Tiling: {r: 600, g: 600, b: 0, a: 0}
+    - _Vector0: {r: 600, g: 600, b: 0, a: 0}
