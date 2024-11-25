@@ -3941,11 +3941,15 @@ MonoBehaviour:
   moveSpeed: 2
   moveForOnceOnEnable: 0
   moveForthAndBackOnEnable: 0
+  moveForOnceAfterLocalized: 0
+  moveForthAndBackAfterLocalized: 0
   moveType: 4
   keepRotatingOnEnable: 0
+  keepRotatingAfterLocalized: 0
   rotationAxis: {x: 0, y: 1, z: 0}
   rotateDuration: 10
   rotateType: 1
+  showGizmos: 1
 --- !u!114 &1259882828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4680,6 +4684,7 @@ MonoBehaviour:
         m_CallState: 2
   touchRange: 17.4
   disableTouchOfOtherObjects: 1
+  showGizmos: 1
 --- !u!1 &1535508121
 GameObject:
   m_ObjectHideFlags: 0
@@ -5621,6 +5626,7 @@ MonoBehaviour:
   onDisable:
     m_PersistentCalls:
       m_Calls: []
+  showGizmos: 1
   debugMode: 0
 --- !u!1 &1901236960
 GameObject:
@@ -6662,6 +6668,7 @@ MonoBehaviour:
   onDisable:
     m_PersistentCalls:
       m_Calls: []
+  showGizmos: 1
   debugMode: 0
 --- !u!114 &2043661884
 MonoBehaviour:
