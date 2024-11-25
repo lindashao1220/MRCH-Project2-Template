@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7227138538966248640
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ece09b57fde18445b241e21a99082d4, type: 3}
+  m_Name: VHSEffect
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  colorOffset:
+    m_OverrideState: 0
+    m_Value: 4
+  colorOffsetAngle:
+    m_OverrideState: 0
+    m_Value: 1
+  verticalOffsetFrequency:
+    m_OverrideState: 0
+    m_Value: 1
+  verticalOffset:
+    m_OverrideState: 0
+    m_Value: 0.01
+  offsetDistortion:
+    m_OverrideState: 0
+    m_Value: 0.008
+  noiseTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  blendMode:
+    m_OverrideState: 0
+    m_Value: 0
+  tile:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  _textureIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+  smoothCut:
+    m_OverrideState: 0
+    m_Value: 0
+  iterations:
+    m_OverrideState: 0
+    m_Value: 5
+  smoothSize:
+    m_OverrideState: 0
+    m_Value: 0.1
+  deviation:
+    m_OverrideState: 0
+    m_Value: 0.1
+  _textureCutOff:
+    m_OverrideState: 0
+    m_Value: 1
+  stripes:
+    m_OverrideState: 0
+    m_Value: 0.01
+  unscaledTime:
+    m_OverrideState: 0
+    m_Value: 0
+  mask:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  maskChannel:
+    m_OverrideState: 0
+    m_Value: 0
+  GlobalPostProcessingSettings:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Post-processing volume Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 1952094078134723297}
+  - {fileID: -7227138538966248640}
+--- !u!114 &1952094078134723297
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cad91897f55e64ce4bc7baa0d2d92bdd, type: 3}
+  m_Name: OldFilm
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  Fade:
+    m_OverrideState: 1
+    m_Value: 0
+  fps:
+    m_OverrideState: 1
+    m_Value: 1
+  contrast:
+    m_OverrideState: 1
+    m_Value: 1
+  burn:
+    m_OverrideState: 1
+    m_Value: 0.88
+  sceneCut:
+    m_OverrideState: 1
+    m_Value: 0.88
+  mask:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+    dimension: 1
+  maskChannel:
+    m_OverrideState: 1
+    m_Value: 0
+  GlobalPostProcessingSettings:
+    m_OverrideState: 1
+    m_Value: 0

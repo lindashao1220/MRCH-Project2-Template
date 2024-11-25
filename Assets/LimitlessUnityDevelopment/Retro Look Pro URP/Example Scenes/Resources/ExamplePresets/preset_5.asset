@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2260132623288945297
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7199eaf0f7adc74184353ac94a0c8b4, type: 3}
+  m_Name: OldFilm2
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  Fade:
+    m_OverrideState: 1
+    m_Value: 1
+  SepiaAmount:
+    m_OverrideState: 1
+    m_Value: 1
+  NoiseAmount:
+    m_OverrideState: 1
+    m_Value: 0.294
+  ScratchAmount:
+    m_OverrideState: 1
+    m_Value: 1
+  speed:
+    m_OverrideState: 1
+    m_Value: 0.674
+  ScratchSize:
+    m_OverrideState: 1
+    m_Value: 0.382
+  ScratchResolution:
+    m_OverrideState: 1
+    m_Value: 0.708
+  Grain:
+    m_OverrideState: 1
+    m_Value: 0.056
+  mask:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+    dimension: 1
+  maskChannel:
+    m_OverrideState: 1
+    m_Value: 0
+  GlobalPostProcessingSettings:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: preset_5
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 1436350080883503269}
+  - {fileID: -2260132623288945297}
+--- !u!114 &1436350080883503269
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4388191585ea44bb892b7a3954c42607, type: 3}
+  m_Name: Bleed
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  bleedMode:
+    m_OverrideState: 1
+    m_Value: 1
+  bleedAmount:
+    m_OverrideState: 1
+    m_Value: 0
+  bleedDebug:
+    m_OverrideState: 1
+    m_Value: 0
+  mask:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+    dimension: 1
+  maskChannel:
+    m_OverrideState: 1
+    m_Value: 0
+  GlobalPostProcessingSettings:
+    m_OverrideState: 1
+    m_Value: 0
+  bleedModeIndex: 0
