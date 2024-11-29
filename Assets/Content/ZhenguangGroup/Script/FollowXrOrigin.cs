@@ -6,7 +6,7 @@ public class FollowXrOrigin : MonoBehaviour
 
     void Start()
     {
-        GameObject xrOrigin = GameObject.Find("Main Camera");
+        GameObject xrOrigin = GameObject.FindGameObjectWithTag("MainCamera");
 
         if (xrOrigin != null)
 

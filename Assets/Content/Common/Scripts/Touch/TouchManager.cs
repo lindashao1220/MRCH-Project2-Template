@@ -25,7 +25,7 @@ namespace MRCH.Common.Interact
 
         [SerializeField] protected UnityEvent universalReturnEvent;
 
-        [Title("Setting"), PropertyRange(1f, 300f), SerializeField]
+        [Title("Setting"), PropertyRange(0.1f, 300f), SerializeField]
         private float touchRange = 10f;
 
         private Camera _mainCam;
