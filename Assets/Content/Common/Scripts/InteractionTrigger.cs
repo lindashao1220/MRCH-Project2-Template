@@ -142,9 +142,9 @@ namespace MRCH.Common.Interact
         {
             CheckAndInitSetting();
 
-            _player = GameObject.FindGameObjectWithTag("Player");
-            if (_player == null)
-                Debug.LogError("No player found in the scene");
+            _player = GameObject.FindGameObjectWithTag("MainCamera");
+            if (_player == null) 
+                Debug.LogError("No main camera found in the scene");
             _playerTransform = _player.transform;
 
             if (useEventsTriggers && useStartTrigger)
