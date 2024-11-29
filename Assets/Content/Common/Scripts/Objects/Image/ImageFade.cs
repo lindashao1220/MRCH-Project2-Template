@@ -23,6 +23,7 @@ namespace MRCH.Common.Interact
         protected bool SpriteRendererExists;
         [SerializeField, Unit(Units.Second)] protected float secondsToFade = 0.5f;
         [Space(10), SerializeField] protected bool fadeInOnAwake = true;
+        [SerializeField] private bool deactivateItAfterFading = true;
 
         protected virtual void Awake()
         {
@@ -101,26 +102,34 @@ namespace MRCH.Common.Interact
             while (t < 1f)
             {
                 t += Time.deltaTime / secondsToFade;
+                Color color;
                 if (RawImageExists)
                 {
-                    var color = rawImage.color;
+                    color = rawImage.color;
                     color.a = Mathf.Lerp(target ? 0f : 1f, target ? 1f : 0f, t);
                     rawImage.color = color;
                 }
                 else if (ImageExists)
                 {
-                    var color = image.color;
+                    color = image.color;
                     color.a = Mathf.Lerp(target ? 0f : 1f, target ? 1f : 0f, t);
                     image.color = color;
                 }
                 else if (SpriteRendererExists)
                 {
-                    var color = spriteRenderer.color;
+                    color = spriteRenderer.color;
                     color.a = Mathf.Lerp(target ? 0f : 1f, target ? 1f : 0f, t);
                     spriteRenderer.color = color;
                 }
+                else
+                {
+                    Debug.LogError("There is no Image related component on " + name);
+                    color = new Color();
+                }
 
                 yield return null;
+                if (deactivateItAfterFading && color.a <= 0f)
+                    gameObject.SetActive(false);
             }
         }
     }

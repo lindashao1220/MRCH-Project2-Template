@@ -35,6 +35,9 @@ namespace MRCH.Common.Interact
          Tooltip("Enable this if you want other objects to be unable to interact after one is touched")]
         private bool disableTouchOfOtherObjects;
 
+        [Space] public float clickInterval = 0.5f;
+        private float _timeCnt = float.MaxValue;
+
         // Input System actions
         protected InputAction touchAction;
         //[SerializeField] protected InputAction clickAction;
@@ -74,6 +77,8 @@ namespace MRCH.Common.Interact
 
         protected virtual void Update()
         {
+            _timeCnt += Time.deltaTime;
+
             if (touchAction.WasPressedThisFrame())
             {
                 Vector3 inputPosition;
@@ -98,6 +103,8 @@ namespace MRCH.Common.Interact
                     var touchable = hit.transform.GetComponent<TouchableObject>();
                     if (touchable)
                     {
+                        if (_timeCnt <= clickInterval) return;
+                        _timeCnt = 0f;
                         if (touchable.isReturn)
                         {
                             universalTouchEvent?.Invoke();
