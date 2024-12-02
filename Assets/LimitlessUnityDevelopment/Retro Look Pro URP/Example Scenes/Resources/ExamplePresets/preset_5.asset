@@ -18,13 +18,13 @@ MonoBehaviour:
     m_Value: 1
   Fade:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.899
   SepiaAmount:
     m_OverrideState: 1
     m_Value: 1
   NoiseAmount:
     m_OverrideState: 1
-    m_Value: 0.294
+    m_Value: 0.169
   ScratchAmount:
     m_OverrideState: 1
     m_Value: 1
