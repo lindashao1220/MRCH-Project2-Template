@@ -24,7 +24,7 @@ MonoBehaviour:
     m_Value: 1
   NoiseAmount:
     m_OverrideState: 1
-    m_Value: 0.169
+    m_Value: 0.087
   ScratchAmount:
     m_OverrideState: 1
     m_Value: 1
