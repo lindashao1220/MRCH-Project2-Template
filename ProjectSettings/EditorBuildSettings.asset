@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Content/Common/Scenes/MapTemplate/Ampier.unity
     guid: e614cf221c095054390c8994b8ca8b64
-  - enabled: 1
+  - enabled: 0
     path: Assets/Content/ZhenguangGroup/Scenes/ZhenGuang 1.unity
     guid: 11e288190cb9949b6ac383e6a6200b95
+  - enabled: 1
+    path: Assets/Content/ZhenguangGroup/Scenes/ZhenGuang_Retro.unity
+    guid: c759ad13567144cbbb20f18dbe2d76b4
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 5a2f9b67c02658745b46c1890755fc21, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 004f060af04f0cc40a700fb1b81e30ad, type: 2}
